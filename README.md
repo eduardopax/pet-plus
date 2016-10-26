@@ -29,7 +29,7 @@ _java -jar petplus-1.0.0.war --spring.mail.username=ENVIAR@gmail.com --spring.ma
 
 **_Docker_**
 
-Criando um container Docker pelo arquivo Docker file, execute passando os parametros correspondentes acima da segunte forma:
+Criando um container Docker pelo arquivo Dockerfile, execute passando os parametros correspondentes acima da segunte forma:
 
 _docker run -e USERNAME=usuarioemail -e PASSWORD=password -e HOST=localhost -e PORT=porta NOMEIMAGEM_
 
