@@ -16,7 +16,7 @@ Para redirecionamento de mensagem enviada por e-mail
 
 Exemplo passando configurações via parametros (mais detalhes em http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html):
 
-_java -jar petplus-1.0.0.war --spring.mail.username=ENVIAR@gmail.com --spring.mail.password=ABC --hostAndPort=http://DOMINIO:8080
+_java -jar petplus-1.0.0.war --spring.mail.username=ENVIAR@gmail.com --spring.mail.password=ABC --hostAndPort=http://DOMINIO:8080_
 
 
 
