@@ -31,4 +31,4 @@ ENV PORT 8080
 
 EXPOSE $PORT
 		
-ENTRYPOINT ["sh", "-c", "java -jar $(ls | grep petplus) --spring.mail.username=$USERNAME --spring.mail.password=$PASSWORD --hostAndPort=http://$HOST:$PORT"]
+ENTRYPOINT ["sh", "-c", "java -jar $(ls | grep petplus) --spring.mail.username=$USERNAME --spring.mail.password=$PASSWORD --hostAndPort=http://$HOST:$PORT --server.port=$PORT"]
